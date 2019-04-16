@@ -1,37 +1,37 @@
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
-body{
-background-color: purple;
-}
+/* body {
+  background-color: rgba(32, 3, 32, 0.555);
+} */
 
 .bg-dark {
-    background-color: #343a40!important;
+  background-color: #343a40 !important;
 }
 
 .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 1rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
 }
 
 .navbar-brand-color {
-    color: #fff;
+  color: #fff;
 }
 
-.imge{
-    width:1100px; 
-    height:450px;
+.imge {
+  width: 1100px;
+  height: 450px;
 }
 
-.hide{
- display: none;
+.hide {
+  display: none;
 }
