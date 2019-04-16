@@ -1,24 +1,21 @@
-const searchTitle = document.getElementById("search-title"),
+const searchTitle = document.getElementById("btn-search"),
   apikey = "&apikey=7ef620f9";
 let urlMain = "http://www.omdbapi.com/?",
   url = "";
-searchTitle.addEventListener("keydown", e => {
-  if (event.key === "Enter") {
-    let getTextSearch = e.target.value.trim();
-    url = `${urlMain}s=${getTextSearch}${apikey}`;
-    console.log(url);
-    fetch(url)
-      .then(result => result.json())
-      .then(result => {
-        let arrData = result.Search;
-        template(arrData);
-      })
-      .catch(error => console.log(error));
-  }
+searchTitle.addEventListener("click", () => {
+  let getTextSearch = document.getElementById("busqueda").value.trim();
+  url = `${urlMain}s=${getTextSearch}${apikey}`;
+  console.log(url);
+  fetch(url)
+    .then(result => result.json())
+    .then(result => {
+      let arrData = result.Search;
+      template(arrData);
+    })
+    .catch(error => console.log(error));
 });
 
 const template = valuesData => {
-  w;
   let clear = " ";
   valuesData.forEach(view => {
     clear += ` <div>
