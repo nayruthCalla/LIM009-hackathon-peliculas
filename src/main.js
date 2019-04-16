@@ -18,6 +18,7 @@ searchTitle.addEventListener("keydown", e => {
 });
 
 const template = valuesData => {
+  w;
   let clear = " ";
   valuesData.forEach(view => {
     clear += ` <div>
