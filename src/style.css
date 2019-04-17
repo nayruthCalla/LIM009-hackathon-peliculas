@@ -21,6 +21,9 @@
   color: #fff;
 }
 
+.color-black{
+color:black;
+}
 body {
   background-color: rgba(15, 46, 63, 1);
 }
@@ -61,7 +64,7 @@ body {
   width: 1100px;
   height: 450px;
 }
-ç
+
 /*estilos para datos de una peli*/
 .left-datos {
   padding-left: 10%;
@@ -131,12 +134,3 @@ body {
   color: white;
 }
 
-#main {
-  width: 300px;
-  height: 236px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -118px; /* 50% del alto*/
-  margin-left: -150px; /* 50% del ancho */
-  }
