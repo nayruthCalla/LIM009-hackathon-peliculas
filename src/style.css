@@ -1,3 +1,6 @@
+* {
+  position: center;
+}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -5,9 +8,37 @@
   left: 0;
   z-index: 1030;
 }
+.border {
+  box-shadow: 0px 4px 15px rgba(7, 1, 20, 0.747);
+  background: rgba(0, 0, 0, 0.397);
+}
+.margin {
+  margin: 5%;
+}
+.border {
+  border-radius: 15px;
+  /* background: #042b19ad; */
+}
+.colo-text {
+  color: #fff;
+}
+
+body {
+  background-color: rgba(15, 46, 63, 1);
+}
+.size-conteiner {
+  width: 100%;
+}
+.size-cont-data {
+  width: 80%;
+  height: 70rem;
+  border-style: solid;
+  margin-top: 10%;
+}
 
 .bg-dark {
-  background-color: #343a40;
+  background-color: white;
+  margin-top: 0.5%;
 }
 
 .navbar {
@@ -23,11 +54,86 @@
   color: #fff;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.hide {
+  display: block;
+}
+
 .imge {
   width: 1100px;
   height: 450px;
 }
+ç
+/*estilos para datos de una peli*/
+.left-datos {
+  padding-left: 10%;
+}
 
-.hide {
-  display: none;
+@media (min-width: 320px) {
+  /* Bump up size of carousel content */
+  .imge {
+    width: 320px;
+    height: 170px;
+  }
+}
+
+@media (min-width: 360px) {
+  /* Bump up size of carousel content */
+  .imge {
+    width: 360px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .imge {
+    width: 768px;
+    height: 430px;
+    /* background:  rgba(123, 185, 180, 0.384) */
+  }
+  .color-cont-data {
+    background: rgba(73, 177, 146, 0.89);
+    width: 90rem;
+    border-radius: 10px;
+  }
+  .margin {
+    margin: 2%;
+  }
+}
+
+/* FOOTER 2 -BOTONES */
+.fa {
+  padding-right: 0.1%;
+  font-size: 70px;
+  width: 18px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c7033e;
+  color: white;
 }
