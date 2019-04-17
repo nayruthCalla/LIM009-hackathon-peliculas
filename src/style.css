@@ -66,6 +66,11 @@ body {
   width: 1100px;
   height: 450px;
 }
+ç
+/*estilos para datos de una peli*/
+.left-datos {
+  padding-left: 10%;
+}
 
 @media (min-width: 320px) {
   /* Bump up size of carousel content */

@@ -4,20 +4,21 @@ const searchTitle = document.getElementById("btn-search"),
 uniqueData = document.getElementById("unique-data");
 let urlMain = "https://www.omdbapi.com/?",
   url = "";
+
 uniqueData.addEventListener("keydown", e => {
   if (event.key === "Enter") {
     let getTextSearch = e.target.value.trim();
-    // console.log(getTextSearch);
+    console.log(getTextSearch);
     url = `${urlMain}t=${getTextSearch}${apikey}`;
     fetch(url)
       .then(data => data.json())
-      .then(data => showMovie(data));
+      .then(data => console.log(showMovie(data)));
   }
 });
 
 searchTitle.addEventListener("click", () => {
   let getTextSearch = document.getElementById("busqueda").value.trim();
-  Carruselimg.classList.add("hide");
+  // Carruselimg.classList.add("hide");
   url = `${urlMain}s=${getTextSearch}${apikey}`;
   console.log(url);
   fetch(url)
@@ -43,17 +44,19 @@ const template = valuesData => {
     document.getElementById("data-omdb").innerHTML = `${clear}`;
   });
 };
-
+// background-color: rgba(15, 46, 63, 1)
 const showMovie = view => {
   let template = "";
-  template = ` <div>
-          <h2>${view.Title}</h2>
-          <img src=${view.Poster}></>
-          <h3>Género:${view.Genre}</h3>
+  template = `<div >
+          <h2 class='left-datos'>${view.Title}</h2>
+          <img src=${
+            view.Poster
+          } align="left" style="margin-right: 10%; overflow: hidden; padding: 2%;box-shadow: 0px 4px 5px rgba(7, 1, 20, 0.747)"></>
+          <h3  style="color: rgba(15, 46, 63, 1); ">Sinopsis: ${view.Plot}</h3>
+          <h3 class='left-datos'>Género:${view.Genre}</h3>
           <h3>Año de Estreno:${view.Year}</h3>
           <h3>duracion: ${view.Runtime}</h3>
           <h3>Reparto:${view.Actors}</h3>
-          <h3>Sinopsis:${view.Plot}</h3>
           </div>`;
   document.getElementById("data-omdb").innerHTML = `${template}`;
 };
