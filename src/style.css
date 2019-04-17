@@ -38,7 +38,7 @@ body {
 }
 
 .bg-dark {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.507);
   margin-top: 0.5%;
 }
 
@@ -90,10 +90,10 @@ body {
   .imge {
     width: 768px;
     height: 430px;
-    /* background: white; */
+    /* background: rgba(126, 145, 44, 0.486) */
   }
   .color-cont-data {
-    background: rgba(73, 177, 146, 0.89);
+    background: rgba(17, 17, 17, 0.514);
     width: 90rem;
     border-radius: 10px;
   }
