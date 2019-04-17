@@ -1,25 +1,21 @@
 const searchTitle = document.getElementById("btn-search"),
   apikey = "&apikey=7ef620f9",
-  btnDetail = document.getElementById("cont-data");
+  btnDataFull = document.getElementById("btn-search-data");
 uniqueData = document.getElementById("unique-data");
 let urlMain = "https://www.omdbapi.com/?",
   url = "";
 
-uniqueData.addEventListener("keydown", e => {
-  if (event.key === "Enter") {
-    let getTextSearch = e.target.value.trim();
-    console.log(getTextSearch);
-    url = `${urlMain}t=${getTextSearch}${apikey}`;
-    fetch(url)
-      .then(data => data.json())
-      .then(data => console.log(showMovie(data)));
-  }
-});
-
-searchTitle.addEventListener("click", () => {
+searchTitle.addEventListener("click", e => {
   let getTextSearch = document.getElementById("busqueda").value.trim();
-  // Carruselimg.classList.add("hide");
-  url = `${urlMain}s=${getTextSearch}${apikey}`;
+  // console.log(getTextSearch);
+  url = `${urlMain}t=${getTextSearch}${apikey}`;
+  fetch(url)
+    .then(data => data.json())
+    .then(data => console.log(showMovie(data)));
+});
+btnDataFull.addEventListener("click", () => {
+  let titleDataFull = document.getElementById("search-data-full").value.trim();
+  url = `${urlMain}s=${titleDataFull}${apikey}`;
   console.log(url);
   fetch(url)
     .then(result => result.json())
@@ -29,6 +25,42 @@ searchTitle.addEventListener("click", () => {
     })
     .catch(error => console.log(error));
 });
+// uniqueData.addEventListener("keydown", e => {
+//   if (event.key === "Enter") {
+//     let getTextSearch = e.target.value.trim();
+//     console.log(getTextSearch);
+//     url = `${urlMain}t=${getTextSearch}${apikey}`;
+//     fetch(url)
+//       .then(data => data.json())
+//       .then(data => console.log(showMovie(data)));
+//   }
+// });
+
+// uniqueData.addEventListener("click", () => {
+//   // Carruselimg.classList.add("hide");
+//   url = `${urlMain}s=${getTextSearch}${apikey}`;
+//   console.log(url);
+//   fetch(url)
+//     .then(result => result.json())
+//     .then(result => {
+//       let arrData = result.Search;
+//       template(arrData);
+//     })
+//     .catch(error => console.log(error));
+// });
+// searchTitle.addEventListener("click", () => {
+//   let getTextSearch = document.getElementById("busqueda").value.trim();
+//   // Carruselimg.classList.add("hide");
+//   url = `${urlMain}s=${getTextSearch}${apikey}`;
+//   console.log(url);
+//   fetch(url)
+//     .then(result => result.json())
+//     .then(result => {
+//       let arrData = result.Search;
+//       template(arrData);
+//     })
+//     .catch(error => console.log(error));
+// });
 const template = valuesData => {
   let clear = " ";
   valuesData.forEach(view => {
