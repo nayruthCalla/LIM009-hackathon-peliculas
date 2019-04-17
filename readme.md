@@ -53,6 +53,21 @@ y las inspiraciones utilizadas para definir el producto.
 proyecto.
 * El producto deberá presentarse publicado en github pages.
 
+### Frontend
+***
+|    Funcionalidad  |        DOM                   |     Diseño                     | 
+| ------------------| ---------------------------- | -------------------------------| 
+| -Conocer la Api   | -Realizamos una plantilla    |   -utilizar Boostrap para      |      
+| -Consumir la Api  |   para un post y titulo      |     responsive                 | 
+|   con fetch.      |    de una película.          | -Definir la paleta de colores  |
+| -consolear un post| -Mostar la data  en el       | -Definir fuente de letra ycolor|    
+|   y el titulo     |   documento de forma         | -Definir el estilo de los      |                                
+|   de una pelicula |    dinámica                  |   contenedores                 |                                
+| - hacer funcion   |                              | -Definir fondo de pantalla     |     
+|  de ordenar de a-z|                              |                                | 
+|   y de z-a        |                              |                                | 
+### UX
+
 ## Consideraciones técnicas
 
 * El diseño visual de los componentes es de libre elección de las estudiantes,
@@ -74,9 +89,10 @@ propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/v
 | 9:00  | Sesión de planificación  | Hackeo                |   Detalles finales            | 
 | 10:00 | Hackeo            | Compartir link de aplicación | Feria de demostraciones       |
 | 11:00 |                   | Presentación y Feedback      | Presentación de mejores squads|    
-| 12:00 |                   |                              |     Deliberación del jurado   |                                
-|>13:00 |                   |                              |                               |                                
-| 20:00 |                   |                              |                               |                       
+| 12:00 |-------------------|                              |     Deliberación del jurado   |                                
+|>13:00 |                   |                              |                               |                               
+| 20:00 |                   |                              |                               |
+
 
 ## Tips para la organización de trabajo entre UX y Front end 
 
