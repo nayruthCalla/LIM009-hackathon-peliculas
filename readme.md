@@ -1,6 +1,5 @@
-![Logo-cinemus](src/image/logo cinemus.png) 
-# CIMEMUS
-
+![Logo-cinemus](src/image/logo-ico-j.png) 
+***
 ## Índice
 
 * [Introducción](#introducción)
@@ -62,11 +61,13 @@ Les cmpartimos el Link donde encontraran las encuestas:
 * Yo como ususario quisiera una plataforma donde me aparezca la opción de buscar la película o serie que quiero para tener información sobre ellas
 
 #### Historia N° 2
-* Yo como ususaria quisiera seleccionar el post de una película y tener la sinopsis,el reparto ,el año que fue publica, el genero, para tener conocimientos sobre la película y poder decidir si verla o no.
-
-
+* Yo como ususaria quisiera que al buscar la pelicula que quiero obtenga la sinopsis,el reparto ,el año que fue publica, el genero, para tener conocimientos sobre la película y poder decidir si verla o no.
 
 #### Historia N° 3
+* Yo como ususaria quisiera buscar la saga de game og thrones.
+
+
+#### Historia N° 4
 * Yo como ususaria quisiera ver los nombres de las películas en orden alfabetico ascendente y descendente, para poder seleccionar en forma mas clara cada pelicula.
 
 
