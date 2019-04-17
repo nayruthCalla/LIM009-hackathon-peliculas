@@ -1,4 +1,4 @@
-![Logo-cinemus](src/img/logo cinemus.png) 
+![Logo-cinemus](src/image/logo cinemus.png) 
 # CIMEMUS
 
 ## Índice
@@ -17,13 +17,13 @@ Te imaginas ir al cine sin tener información sobre una pelicula, sin saber que 
 
 CINEMUS es una página que ha sida creada para cinéfilos que les encanta todo tipo de películas y que tienen el interes de informarse sobre cada pelicula antes de verla. Te invitamos a echarle un vistazo y tener una experiencia diferente como ususario.
 
- ![Pelis](src/img/losincreibles.gif)
+ ![Pelis](src/image/losincreibles.gif)
 
 ## Descripción del Producto:
 
 CINEMUS ha sido creada para facilitarte información de todo tipo de peliculas. En esta página web encontraras muchas películas podras ver sinopsis, actores de reparto. Podras ordenar por orden alfabético en forma ascendente y descendente. Esperamos que sea de tu agrado y que disfrutes mucho al usarla.
 
-![Cinemus-logo](src/img/logo cinemus.png)
+![Cinemus-logo](src/image/logo cinemus.png)
 
 
 ## CINEMUS definición de usuario:
@@ -74,13 +74,13 @@ Realizamos nuestro planning en un documento de google, compartimos el link.
 ### Sketches
 
 #### Prototipo de baja calidad
-![cinemus-prototipo-baja-calidad](src/img/prototipobaja.jpg)
+![cinemus-prototipo-baja-calidad](src/image/prototipobaja.jpg)
 
 ### Prototipo de alta calidad
 usamos figma para hacer nuestro prototipado de alta calidad
-![cinemus-prototipo-alta-calidad](src/img/prototipoalta_1.png)
+![cinemus-prototipo-alta-calidad](src/image/prototipoalta_1.png)
 
-![cinemus-prototipo-alta-calidad](src/img/prototipoalta_2.png)
+![cinemus-prototipo-alta-calidad](src/image/prototipoalta_2.png)
 
 
 ### Testeos de Usuabilidad
@@ -88,7 +88,7 @@ usamos figma para hacer nuestro prototipado de alta calidad
 ## Herramientas:
 
 ### Cuadro en Trello
-![cinemus-cuadrotrello](src/img/cuadrotrello.png)
+![cinemus-cuadrotrello](src/image/cuadrotrello.png)
 
 compartimos el Link: [trello](https://trello.com/b/iVbUQQK7/hackaton-pel%C3%ADculas)
 
