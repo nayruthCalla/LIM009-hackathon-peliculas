@@ -46,6 +46,7 @@ btnDataFull.addEventListener("click", () => {
 const template = valuesData => {
   let clear = " ";
   valuesData.forEach(view => {
+
     clear += ` <div class="text-center col-xs-8 col-sm-4 col-md-3 margin " style="width:250px; overflow: hidden; height:400px;border-color:rgba(240, 237, 237, 0.63); border-style:solid;border-radius: 15px; box-shadow:2px 2px 12px 5px rgba(240, 237, 237, 0.63); ">
     <h3 class='color-white-text' font-weight: bold">${view.Title}</h3>
     <img class="border " src= "${
