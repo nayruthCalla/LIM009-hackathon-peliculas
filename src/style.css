@@ -1,26 +1,67 @@
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+/* .centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+} */
+.border {
+  box-shadow: 0px 4px 15px rgba(7, 1, 20, 0.747);
+  background: rgba(0, 0, 0, 0.397);
+  margin-top: 3rem;
+}
+.margin {
+  margin: 5%;
+  align-items: center;
+}
+.border {
+  border-radius: 15px;
+  /* background: #042b19ad; */
+}
+.colo-text {
+  color: #fff;
+}
+
+.color-black {
+  color: black;
+}
+body {
+  background-color: rgba(15, 46, 63, 1);
+  background: url(image/fondo-main.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.size-conteiner {
+  width: 100%;
+}
+.size-cont-data {
+  width: 80%;
+  height: 70rem;
+  border-style: solid;
+  margin-top: 10%;
 }
 
 .bg-dark {
-  background-color: #343a40;
+  background-color: rgba(0, 0, 0, 0.507);
+  margin-top: 0.5%;
 }
 
 .navbar {
-  position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar-brand-color {
   color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hide {
+  display: block;
 }
 
 .imge {
@@ -28,6 +69,71 @@
   height: 450px;
 }
 
-.hide {
-  display: none;
+/*estilos para datos de una peli*/
+.left-datos {
+  padding-left: 10%;
+}
+
+@media (min-width: 320px) {
+  /* Bump up size of carousel content */
+  .imge {
+    width: 320px;
+    height: 170px;
+  }
+}
+
+@media (min-width: 360px) {
+  /* Bump up size of carousel content */
+  .imge {
+    width: 360px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .imge {
+    width: 768px;
+    height: 430px;
+    /* background: rgba(73, 177, 146, 0.89) */
+  }
+  .color-cont-data {
+    background: rgba(17, 17, 17, 0.514);
+    width: 90rem;
+    border-radius: 10px;
+  }
+  .margin {
+    margin: 2%;
+  }
+}
+
+/* FOOTER 2 -BOTONES */
+.fa {
+  padding: 0.8%;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c7033e;
+  color: white;
 }
