@@ -130,3 +130,16 @@ body {
 .fa-instagram {
   background: #c7033e;
 }
+/*ESTILO DEL BOTON QUE VA AHACIA ARRIBA*/
+.ir-arriba {
+  display:none;
+  padding:30px;
+  background-repeat: no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 2;
+}
