@@ -17,13 +17,10 @@
   border-radius: 15px;
   /* background: #042b19ad; */
 }
-.colo-text {
-  color: #fff;
+.color-white-text {
+  color: white;
 }
 
-.color-black {
-  color: black;
-}
 body {
   background-color: rgba(15, 46, 63, 1);
   background: url(image/fondo-main.jpg);
@@ -120,20 +117,29 @@ body {
 
 .fa-facebook {
   background: #3b5998;
-  color: white;
 }
 
 .fa-twitter {
   background: #55acee;
-  color: white;
 }
 
 .fa-youtube {
   background: #bb0000;
-  color: white;
 }
 
 .fa-instagram {
   background: #c7033e;
-  color: white;
+}
+/*ESTILO DEL BOTON QUE VA AHACIA ARRIBA*/
+.ir-arriba {
+  display:none;
+  padding:30px;
+  background-repeat: no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 2;
 }
