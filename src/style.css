@@ -4,13 +4,6 @@
   margin-right: auto;
   margin-top: 2rem;
 } */
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
 .border {
   box-shadow: 0px 4px 15px rgba(7, 1, 20, 0.747);
   background: rgba(0, 0, 0, 0.397);
@@ -47,12 +40,9 @@ body {
 }
 
 .navbar {
-  position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar-brand-color {
@@ -111,12 +101,10 @@ body {
 
 /* FOOTER 2 -BOTONES */
 .fa {
-  padding-right: 0.1%;
-  font-size: 70px;
-  width: 18px;
-  text-decoration: none;
-  margin: 5px 2px;
+  padding: 0.8%;
+  width: 35px;
   border-radius: 50%;
+  text-align: center;
 }
 
 .fa:hover {
@@ -142,3 +130,13 @@ body {
   background: #c7033e;
   color: white;
 }
+
+#main {
+  width: 300px;
+  height: 236px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -118px; /* 50% del alto*/
+  margin-left: -150px; /* 50% del ancho */
+  }
