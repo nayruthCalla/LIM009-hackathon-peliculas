@@ -1,3 +1,6 @@
+* {
+  position: center;
+}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -5,18 +8,37 @@
   left: 0;
   z-index: 1030;
 }
-
-
+.border {
+  box-shadow: 0px 4px 15px rgba(7, 1, 20, 0.747);
+  background: rgba(0, 0, 0, 0.397);
+}
 .margin {
-  margin : 5%;
+  margin: 5%;
 }
- body {
- background-color: rgb(192, 182, 182);
+.border {
+  border-radius: 15px;
+  /* background: #042b19ad; */
+}
+.colo-text {
+  color: #fff;
 }
 
+body {
+  background-color: rgba(15, 46, 63, 1);
+}
+.size-conteiner {
+  width: 100%;
+}
+.size-cont-data {
+  width: 80%;
+  height: 70rem;
+  border-style: solid;
+  margin-top: 10%;
+}
 
 .bg-dark {
-  background-color: black;
+  background-color: white;
+  margin-top: 0.5%;
 }
 
 .navbar {
@@ -32,7 +54,7 @@
   color: #fff;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -63,9 +85,18 @@
 
 @media (min-width: 768px) {
   .imge {
-      width: 768px;
-      height: 430px;
-    }
+    width: 768px;
+    height: 430px;
+    /* background:  rgba(123, 185, 180, 0.384) */
+  }
+  .color-cont-data {
+    background: rgba(73, 177, 146, 0.89);
+    width: 90rem;
+    border-radius: 10px;
+  }
+  .margin {
+    margin: 2%;
+  }
 }
 
 /* FOOTER 2 -BOTONES */
@@ -76,29 +107,28 @@
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-  }
-      
-  .fa:hover {
+}
+
+.fa:hover {
   opacity: 0.7;
-  }
-      
-  .fa-facebook {
-  background: #3B5998;
+}
+
+.fa-facebook {
+  background: #3b5998;
   color: white;
-  }
-      
-  .fa-twitter {
-  background: #55ACEE;
+}
+
+.fa-twitter {
+  background: #55acee;
   color: white;
-  }
-      
-  .fa-youtube {
+}
+
+.fa-youtube {
   background: #bb0000;
   color: white;
-  }
-        
-  .fa-instagram {
+}
+
+.fa-instagram {
   background: #c7033e;
   color: white;
-  }
-  
+}
