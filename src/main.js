@@ -16,7 +16,7 @@ searchTitle.addEventListener("click", e => {
 btnDataFull.addEventListener("click", () => {
   let titleDataFull = document.getElementById("search-data-full").value.trim();
   url = `${urlMain}s=${titleDataFull}${apikey}`;
-  console.log(url);
+  // console.log(url);
   fetch(url)
     .then(result => result.json())
     .then(result => {
@@ -25,42 +25,7 @@ btnDataFull.addEventListener("click", () => {
     })
     .catch(error => console.log(error));
 });
-// uniqueData.addEventListener("keydown", e => {
-//   if (event.key === "Enter") {
-//     let getTextSearch = e.target.value.trim();
-//     console.log(getTextSearch);
-//     url = `${urlMain}t=${getTextSearch}${apikey}`;
-//     fetch(url)
-//       .then(data => data.json())
-//       .then(data => console.log(showMovie(data)));
-//   }
-// });
 
-// uniqueData.addEventListener("click", () => {
-//   // Carruselimg.classList.add("hide");
-//   url = `${urlMain}s=${getTextSearch}${apikey}`;
-//   console.log(url);
-//   fetch(url)
-//     .then(result => result.json())
-//     .then(result => {
-//       let arrData = result.Search;
-//       template(arrData);
-//     })
-//     .catch(error => console.log(error));
-// });
-// searchTitle.addEventListener("click", () => {
-//   let getTextSearch = document.getElementById("busqueda").value.trim();
-//   // Carruselimg.classList.add("hide");
-//   url = `${urlMain}s=${getTextSearch}${apikey}`;
-//   console.log(url);
-//   fetch(url)
-//     .then(result => result.json())
-//     .then(result => {
-//       let arrData = result.Search;
-//       template(arrData);
-//     })
-//     .catch(error => console.log(error));
-// });
 const template = valuesData => {
   let clear = " ";
   valuesData.forEach(view => {
@@ -71,8 +36,7 @@ const template = valuesData => {
     } style="width:200px; height:180px"></>
     <h4 class='colo-text'>Año de Estreno:${view.Year}</h4>
     <h4 class='colo-text'>Genero: ${view.Type}</h4>
-    <button>mas...+</button>  
-    </div>`;
+     </div>`;
     document.getElementById("data-omdb").innerHTML = `${clear}`;
   });
 };
@@ -92,3 +56,14 @@ const showMovie = view => {
           </div>`;
   document.getElementById("data-omdb").innerHTML = `${template}`;
 };
+
+// uniqueData.addEventListener("keydown", e => {
+//   if (event.key === "Enter") {
+//     let getTextSearch = e.target.value.trim();
+//     console.log(getTextSearch);
+//     url = `${urlMain}t=${getTextSearch}${apikey}`;
+//     fetch(url)
+//       .then(data => data.json())
+//       .then(data => console.log(showMovie(data)));
+//   }
+// });
