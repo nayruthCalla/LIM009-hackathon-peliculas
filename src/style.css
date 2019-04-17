@@ -4,13 +4,6 @@
   margin-right: auto;
   margin-top: 2rem;
 } */
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
 .border {
   box-shadow: 0px 4px 15px rgba(7, 1, 20, 0.747);
   background: rgba(0, 0, 0, 0.397);
@@ -24,12 +17,16 @@
   border-radius: 15px;
   /* background: #042b19ad; */
 }
-.colo-text {
-  color: #fff;
+.color-white-text {
+  color: white;
 }
 
 body {
   background-color: rgba(15, 46, 63, 1);
+  background: url(image/fondo-main.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .size-conteiner {
   width: 100%;
@@ -42,17 +39,14 @@ body {
 }
 
 .bg-dark {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.507);
   margin-top: 0.5%;
 }
 
 .navbar {
-  position: relative;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar-brand-color {
@@ -71,7 +65,7 @@ body {
   width: 1100px;
   height: 450px;
 }
-ç
+
 /*estilos para datos de una peli*/
 .left-datos {
   padding-left: 10%;
@@ -97,10 +91,10 @@ body {
   .imge {
     width: 768px;
     height: 430px;
-    /* background:  rgba(123, 185, 180, 0.384) */
+    /* background: rgba(73, 177, 146, 0.89) */
   }
   .color-cont-data {
-    background: rgba(73, 177, 146, 0.89);
+    background: rgba(17, 17, 17, 0.514);
     width: 90rem;
     border-radius: 10px;
   }
@@ -111,12 +105,10 @@ body {
 
 /* FOOTER 2 -BOTONES */
 .fa {
-  padding-right: 0.1%;
-  font-size: 70px;
-  width: 18px;
-  text-decoration: none;
-  margin: 5px 2px;
+  padding: 0.8%;
+  width: 35px;
   border-radius: 50%;
+  text-align: center;
 }
 
 .fa:hover {
@@ -125,20 +117,29 @@ body {
 
 .fa-facebook {
   background: #3b5998;
-  color: white;
 }
 
 .fa-twitter {
   background: #55acee;
-  color: white;
 }
 
 .fa-youtube {
   background: #bb0000;
-  color: white;
 }
 
 .fa-instagram {
   background: #c7033e;
-  color: white;
+}
+/*ESTILO DEL BOTON QUE VA AHACIA ARRIBA*/
+.ir-arriba {
+  display:none;
+  padding:30px;
+  background-repeat: no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 2;
 }

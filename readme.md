@@ -37,6 +37,23 @@ Les cmpartimos el Link donde encontraran las encuestas:
 
 [entrevistas](https://docs.google.com/document/d/1HTQd3Hio7RmerJvs0jWUSinl-oHjZrD4l3SB2MykStw/edit)
 
+### Frontend
+***
+|    Funcionalidad  |        DOM                   |     Diseño                     | 
+| ------------------| ---------------------------- | -------------------------------| 
+| -Conocer la Api   | -Realizamos una plantilla    |   -utilizar Boostrap para      |      
+| -Consumir la Api  |   para un post y titulo      |     responsive                 | 
+|   con fetch.      |    de una película.          | -Definir la paleta de colores  |
+| -consolear un post| -Mostar la data  en el       | -Definir fuente de letra ycolor|    
+|   y el titulo     |   documento de forma         | -Definir el estilo de los      |                                
+|   de una pelicula |    dinámica                  |   contenedores                 |                                
+| - hacer funcion   |                              | -Definir fondo de pantalla     |     
+|  de ordenar de a-z|                              |                                | 
+|   y de z-a        |                              |                                | 
+### UX
+
+## Consideraciones técnicas
+
 
 
 ### Historias de Usuarios
@@ -46,6 +63,7 @@ Les cmpartimos el Link donde encontraran las encuestas:
 
 #### Historia N° 2
 * Yo como ususaria quisiera seleccionar el post de una película y tener la sinopsis,el reparto ,el año que fue publica, el genero, para tener conocimientos sobre la película y poder decidir si verla o no.
+
 
 
 #### Historia N° 3
@@ -100,14 +118,6 @@ Aqui compartimos el Link :
 
 [prototipo-figma](https://www.figma.com/proto/NqTg7Fntfz7iUPYvn51hcjFH/Hackathon---Pel%C3%ADculas?node-id=4%3A2&scaling=scale-down-width)
 
-
-
-
-
-
-
-
-                   
 
 ## Tips para la organización de trabajo entre UX y Front end 
 
