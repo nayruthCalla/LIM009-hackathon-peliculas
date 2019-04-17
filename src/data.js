@@ -6,6 +6,6 @@ const sortData = (data, sortBy, sortOrder) => {
   }
   return data;
 };
-window.GlobalPoke = {
+window.GlobalData = {
   sortData
 };

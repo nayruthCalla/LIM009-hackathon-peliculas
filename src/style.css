@@ -21,11 +21,12 @@
   color: white;
 }
 
-.color-black {
-  color: black;
-}
 body {
-  background-color: rgb(37, 104, 139);
+  background-color: rgba(15, 46, 63, 1);
+  background: url(image/fondo-main.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .size-conteiner {
   width: 100%;
