@@ -1,82 +1,113 @@
-# "Hackathon" de final de _Common Core_, películas
+![Logo-cinemus](src/img/logo cinemus.png) 
+# CIMEMUS
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+* [Introducción](#introducción)
+* [Desccripción del Producto](#descripción-del-producto)
+* [CINEMUS definición de usuario](#Cinemus-definición-de-usuario)
+* [Proceso del diseño](#proceso-del-diseño)
+* [Herramientas](#herramientas)
+* [Autoras](#autoras)
 
  ***
 
-## Preámbulo
+## Introducción:
+Te imaginas ir al cine sin tener información sobre una pelicula, sin saber que actores estan en el reparto, o sin haber leido antes una pequeña sinopsis. Para este problema hay una solución y es la nueva plataforma que te vamos a presentar a continuación.
 
-Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+CINEMUS es una página que ha sida creada para cinéfilos que les encanta todo tipo de películas y que tienen el interes de informarse sobre cada pelicula antes de verla. Te invitamos a echarle un vistazo y tener una experiencia diferente como ususario.
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+ ![Pelis](src/img/losincreibles.gif)
 
-## Resumen del proyecto
+## Descripción del Producto:
 
-Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
+CINEMUS ha sido creada para facilitarte información de todo tipo de peliculas. En esta página web encontraras muchas películas podras ver sinopsis, actores de reparto. Podras ordenar por orden alfabético en forma ascendente y descendente. Esperamos que sea de tu agrado y que disfrutes mucho al usarla.
 
-## Consideraciones generales
+![Cinemus-logo](src/img/logo cinemus.png)
 
-* Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 3 días.
-* Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
 
-## Objetivos de aprendizaje
+## CINEMUS definición de usuario:
 
-* Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+* Nuestros usuarios son personas que tengan la necesidad de conocer mas las películas e informarse sobre ellas, en esta página encontrarán datos especificos e importantes de cada película.
 
-## Parte Obligatoria
+### Entrevistas
 
-* Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+Realizamos entrevistas a dos posibles usuarios, les hicimos preguntas dirigidas al tema que fue películas, y sus respuestas nos ayudaron mucho a definir el camino que tomariamos en nuestra pagina web, tratamos de cubrir sus necesidades e inquietudes.
+Les cmpartimos el Link donde encontraran las encuestas:
 
-## Consideraciones técnicas
+[entrevistas](https://docs.google.com/document/d/1HTQd3Hio7RmerJvs0jWUSinl-oHjZrD4l3SB2MykStw/edit)
 
-* El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
 
-## Reglas de las presentaciones 
 
-* Cada squad tendrá 5 minutos para presentar su demo y 5 minutos para recibir preguntas.
+### Historias de Usuarios
 
-* Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final.
+#### Historia N° 1
+* Yo como ususario quisiera una plataforma donde me aparezca la opción de buscar la película o serie que quiero para tener información sobre ellas
 
-## Horario
+#### Historia N° 2
+* Yo como ususaria quisiera seleccionar el post de una película y tener la sinopsis,el reparto ,el año que fue publica, el genero, para tener conocimientos sobre la película y poder decidir si verla o no.
 
-|       |  Lunes            | Martes                       | Miércoles                     | 
-|------ | ------------------| ---------------------------- | ----------------------------- | 
-| 8:00  | Kick off hackaton | Daily por squad              |   Hackeo                      |      
-| 9:00  | Sesión de planificación  | Hackeo                |   Detalles finales            | 
-| 10:00 | Hackeo            | Compartir link de aplicación | Feria de demostraciones       |
-| 11:00 |                   | Presentación y Feedback      | Presentación de mejores squads|    
-| 12:00 |                   |                              |     Deliberación del jurado   |                                
-|>13:00 |                   |                              |                               |                                
-| 20:00 |                   |                              |                               |                       
+
+#### Historia N° 3
+* Yo como ususaria quisiera ver los nombres de las películas en orden alfabetico ascendente y descendente, para poder seleccionar en forma mas clara cada pelicula.
+
+
+## Proceso del diseño
+
+### Research
+
+Para hacer nuestro _RESEARCH_ estuvimos buscando información sobre páginas relacionadas al tema de esta hackaton, en nuestra busqueda nos encontramos con muchas páginas que enriquecierón nuestras ideas,y elegimos seis dentro de ellas por que cumplia su funcionalidad y eran faciles y entendibles para el usuario.
+
+[QUBIT](https://global.qubit.tv/inicio/)
+[CRACKLE](https://www.crackle.com.py/)
+[MUBI](https://mubi.com/es)
+[HULU](https://www.hulu.com/originals)
+[CLASSIC](https://classiccinemaonline.com/)
+[LOCOPELIS](https://www.locopelis.com/)
+
+
+### Planning
+Realizamos nuestro planning en un documento de google, compartimos el link.
+
+[Planning](https://docs.google.com/document/d/1wTT4QKSDaqYs3eZpYqY473pAlqg50C5uaMqbGInZU18/edit)
+
+### Sketches
+
+#### Prototipo de baja calidad
+![cinemus-prototipo-baja-calidad](src/img/prototipobaja.jpg)
+
+### Prototipo de alta calidad
+usamos figma para hacer nuestro prototipado de alta calidad
+![cinemus-prototipo-alta-calidad](src/img/prototipoalta_1.png)
+
+![cinemus-prototipo-alta-calidad](src/img/prototipoalta_2.png)
+
+
+### Testeos de Usuabilidad
+
+## Herramientas:
+
+### Cuadro en Trello
+![cinemus-cuadrotrello](src/img/cuadrotrello.png)
+
+compartimos el Link: [trello](https://trello.com/b/iVbUQQK7/hackaton-pel%C3%ADculas)
+
+### Figma
+
+En nuestro prototipo de alta fidelidad tratamos de representar en lo mas similar posible el diseño que elegimos.
+
+Aqui compartimos el Link : 
+
+[prototipo-figma](https://www.figma.com/proto/NqTg7Fntfz7iUPYvn51hcjFH/Hackathon---Pel%C3%ADculas?node-id=4%3A2&scaling=scale-down-width)
+
+
+
+
+
+
+
+
+                   
 
 ## Tips para la organización de trabajo entre UX y Front end 
 
@@ -88,9 +119,3 @@ propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/v
 * Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
 * Iteren, iteren, iteren.
 
-## ¿Qué es la Feria de demos?
-
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
-
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 5 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
