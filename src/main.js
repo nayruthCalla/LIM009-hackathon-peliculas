@@ -47,12 +47,12 @@ const template = valuesData => {
   let clear = " ";
   valuesData.forEach(view => {
     clear += ` <div class="text-center col-xs-8 col-sm-4 col-md-3 margin " style="width:250px; overflow: hidden; height:400px;border-color:rgba(123, 185, 180, 0.384); border-style:solid;border-radius: 15px; box-shadow: 0px 4px 10px rgba(7, 1, 20, 0.747); ">
-    <h3 class='colo-text' font-weight: bold">${view.Title}</h3>
+    <h3 class='color-white-text' font-weight: bold">${view.Title}</h3>
     <img class="border" src= "${
       view.Poster === "N/A" ? "no hay imagen" : view.Poster
     }"style="width:220px; height:190px"></>
-    <h4 class='colo-text'>Año de Estreno:${view.Year}</h4>
-    <h4 class='colo-text'>Genero: ${view.Type}</h4>
+    <h4 class='color-white-text'>Año de Estreno:${view.Year}</h4>
+    <h4 class='color-white-text'>Genero: ${view.Type}</h4>
      </div>`;
     document.getElementById("data-omdb").innerHTML = `${clear}`;
   });
